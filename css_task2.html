@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration:none;
+            display:inline-block;
+            height:25px;
+        }
+        #div1{
+            width:100px;
+            height:120px;
+            background-color:skyblue;
+            padding:10px;
+            border:2px solid black;
+        }
+        #div2{
+            display:flex;
+            width:300px;
+            height:30px;
+            border:1px solid black;
+            background-color:silver;
+        }
+        .hove{
+            border-right:1px solid blue;
+            padding:10px;
+        }
+        .hove:hover{
+            background-color:grey;
+            color:white;
+        }
+        .a1:hover{
+            color:white
+        }
+        .hov:hover{
+            background-color:orange;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+        <h1>Vertical Navigation Bar</h1>
+    <div id="div1">
+        <div class="hov">
+            <a href="#">Home</a>
+        </div>
+        <div class="hov">
+            <a href="#">Java</a>
+        </div>
+        <div class="hov">
+            <a href="#">CSS</a>
+        </div>
+        <div class="hov">
+            <a href="#">HTML</a>
+        </div>
+        <div class="hov">
+            <a href="#">Bootstrap</a>
+        </div>
+    </div>
+    <br/>
+    <h1>Horizontal Vertical Bar</h1>
+    <div id="div2">
+        <div class="hove">
+            <a  class=a1 href="#">Home</a>
+        </div>
+        <div class="hove">
+            <a class=a1 href="#">Java</a>
+        </div>
+        <div class="hove">
+            <a class=a1 href="#">HTML</a>
+        </div>
+        <div class="hove">
+            <a class=a1 href="#">CSS</a>
+        </div>
+    </div>
+
+</body>
+</html>

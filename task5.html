@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            border:2px solid black;
+            border-collapse:collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align:center;
+            color:blue;
+        }
+        button{
+            position:relative;
+            left:725px;
+        }
+        form{
+            width:500px;
+        }
+        :placeholder-shown{
+            width:494px;
+        }
+        #ethnus{
+            text-align:right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <td>
+                <form>
+                    <input type="text" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td>
+                <form>
+                    <input type="text" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <form>
+                    <input type="email" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>password</th>
+            <td>
+                <form>
+                    <input type="password" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Re-enter password</th>
+            <td>
+                <form>
+                    <input type="password" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Gender:</th>
+            <td>
+                <form>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender">
+                    <hr>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Age:</th>
+            <td>
+                <form>
+                    <input type="text" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td>
+                <form>
+                    <input type="text" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>
+                <form>
+                    <input type="feedback" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td>
+                <form>
+                    <input type="text" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <form>
+                    <select name="country">
+                        <option>choose your country</option>
+                        <option value="Afghanisthan">Afghanistan</option>
+                        <option value="India">India</option>
+                        <option value="Sri lanka">Sri Lanka</option>
+                        <option value="Pakisthan">Pakisthan</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Languages Known</th>
+            <td>
+                <form>
+                    <label for="english">English</label>
+                    <input type="checkbox" id="english">
+                    <label for="kannada">Kannada</label>
+                    <input type="checkbox" id="kannada">
+                    <label for="hindi">Hindi</label>
+                    <input type="checkbox" id="hindi">
+                    <label for="telugu">Telugu</label>
+                    <input type="checkbox" id="telugu">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                    <label for="decl">
+                        <input type="checkbox" id="decl">Hereby I declare all the given details are true
+                    </label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td id="ethnus" colspan="2">
+                <p>Login to <a href=Ethnus.html>Ethnus</a>website</p>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <div>
+        <button>Register</button>
+    </div>
+</body>
+</html>
